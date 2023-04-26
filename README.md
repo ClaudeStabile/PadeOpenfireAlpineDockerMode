@@ -1,5 +1,7 @@
-# Pade & Openfire Docker Mode
+# Pade & Openfire Docker Mode Alpine version
 Padé and Openfire package in Docker mode - All questions &amp; contribs for Padé Docker are welcomed
+
+This is the Alpine Docker optimized version for Padé + Jitsi + Openfire
 
 You also need a mysql Docker instance installed and correctly configuered
 
