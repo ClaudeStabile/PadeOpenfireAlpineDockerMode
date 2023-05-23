@@ -11,7 +11,7 @@ RUN apk add --no-cache openjdk17 vim mysql-client tzdata shadow runit bash bind-
 #                    && apt-get autoremove \
 #                    && rm -rf /tmp/* /var/tmp/*  \
 #                    && rm -rf /var/lib/apt/lists/*
-
+#
 ##startup scripts  
 RUN mkdir -p /etc/my_init.d
 COPY startup.sh /etc/my_init.d/startup.sh
