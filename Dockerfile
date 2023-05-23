@@ -1,5 +1,5 @@
 #name of container: docker-pade
-#version of container: 6.0.2
+#version of container: 6.0.3
 FROM alpine:latest
 MAINTAINER Claude Stabile "claude@free-solutions.ch"
 
