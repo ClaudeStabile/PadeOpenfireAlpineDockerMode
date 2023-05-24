@@ -24,7 +24,7 @@ wget -O registration.jar https://www.igniterealtime.org/projects/openfire/plugin
 #wget -O push.jar https://www.igniterealtime.org/projects/openfire/plugins/1.0.0/pushserver.jar
 wget -O externalservicediscovery.jar https://www.igniterealtime.org/projects/openfire/plugins/1.0.1/externalservicediscovery.jar 
 wget -O pushnotification.jar https://www.igniterealtime.org/projects/openfire/plugins/0.9.1/pushnotification.jar 
-#wget -O pade.jar http://green-spider.free-solutions.org/padecustomwithscanet-176-1.jar
+#wget -O pade.jar http://green-spider.free-solutions.org/padecustom176aminumavecvoice-1.jar
 wget -O pade.jar https://github.com/igniterealtime/openfire-pade-plugin/releases/download/v1.7.6/pade.jar
 wget -O hazelcast.jar https://www.igniterealtime.org/projects/openfire/plugins/2.6.1/hazelcast.jar
  
