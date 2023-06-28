@@ -23,15 +23,19 @@ RUN chmod +x /etc/my_init.d/startup.sh
 #
 RUN groupadd -g 2000 openfire 
 RUN useradd openfire -u 2000 -g 2000 
+
+#USER openfire
 RUN mkdir /etc/service/openfire
 COPY openfire.sh /etc/service/openfire/run
 RUN chmod +x /etc/service/openfire/run 
-
 COPY pre-conf.sh /sbin/pre-conf
 RUN chmod +x /sbin/pre-conf; sync \
     && /bin/bash -c /sbin/pre-conf \
     && rm /sbin/pre-conf
-
+RUN chown -R openfire:openfire /usr/share/openfire
+RUN chown -R openfire:openfire /etc/service/openfire
+USER openfire
+WORKDIR /usr/share/openfire
 #Expose port adjust to your need
 EXPOSE 7443 7777 9090 9091 5000-5100/udp 5000-6000/tcp 10000-10050/udp
 
