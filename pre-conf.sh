@@ -25,8 +25,7 @@ wget -O registration.jar https://www.igniterealtime.org/projects/openfire/plugin
 wget -O galene.jar https://igniterealtime.org/projects/openfire/plugins/0.0.3/galene.jar
 wget -O externalservicediscovery.jar https://www.igniterealtime.org/projects/openfire/plugins/1.0.1/externalservicediscovery.jar 
 wget -O pushnotification.jar https://www.igniterealtime.org/projects/openfire/plugins/0.9.2/pushnotification.jar 
-#wget -O pade.jar https://github.com/igniterealtime/openfire-pade-plugin/releases/download/v1.7.6/pade.jar
-wget -O https://github.com/igniterealtime/openfire-pade-plugin/releases/download/v1.7.7/pade.jar
+wget -O pade.jar https://github.com/igniterealtime/openfire-pade-plugin/releases/download/v1.7.7/pade.jar
 #wget -O pade.jar http://green-spider.free-solutions.org/PLUGINS/padecustom176.jar
 wget -O hazelcast.jar https://www.igniterealtime.org/projects/openfire/plugins/2.6.1/hazelcast.jar
  
