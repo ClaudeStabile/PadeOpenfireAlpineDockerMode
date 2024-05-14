@@ -23,7 +23,7 @@ wget -O monitoring.jar https://www.igniterealtime.org/projects/openfire/plugins/
 wget -O registration.jar https://www.igniterealtime.org/projects/openfire/plugins/1.8.0/registration.jar 
 wget -O externalservicediscovery.jar https://www.igniterealtime.org/projects/openfire/plugins/1.0.2/externalservicediscovery.jar 
 wget -O pushnotification.jar https://www.igniterealtime.org/projects/openfire/plugins/1.0.0/pushnotification.jar 
-wget -O pade.jar https://github.com/igniterealtime/openfire-pade-plugin/releases/download/1.8.2/pade.jar
+wget -O pade.jar https://igniterealtime.org/projects/openfire/plugins/1.8.2/pade.jar
 wget -O hazelcast.jar https://www.igniterealtime.org/projects/openfire/plugins/2.6.1/hazelcast.jar
  
  #Cleaning...

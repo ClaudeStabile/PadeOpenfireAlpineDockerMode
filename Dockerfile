@@ -1,12 +1,12 @@
 #name of container: docker-pade
 #version of container: 6.0.3
-FROM alpine:latest
+FROM alpine:edge
 MAINTAINER Claude Stabile "claude@free-solutions.ch"
 
 #Installation of needed packages...
 #Java, mysql client, vim & TZ
 #RUN apt-get update && DEBIAN_FRONTEND=noninteractive apt-get install -y -q openjdk-16-jdk && DEBIAN_FRONTEND=noninteractive apt-get install -y -q vim && DEBIAN_FRONTEND=noninteractive apt-get install -y -q mysql-client && DEBIAN_FRONTEND=noninteractive apt-get install -y -q tzdata\
-RUN apk add --no-cache openjdk17 vim mysql-client tzdata shadow runit bash bind-tools sudo unzip maven mariadb-connector-c
+RUN apk add --no-cache openjdk21 vim mysql-client tzdata shadow runit bash bind-tools sudo unzip maven mariadb-connector-c
 #                    && apt-get clean \
 #                    && apt-get autoremove \
 #                    && rm -rf /tmp/* /var/tmp/*  \
