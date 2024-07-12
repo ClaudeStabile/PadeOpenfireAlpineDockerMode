@@ -8,9 +8,9 @@ set -e
 
 echo "JaVaHome :"$JAVA_HOME
 java -version
-wget -O openfire_4_8_1.tar.gz https://github.com/igniterealtime/Openfire/releases/download/v4.8.1/openfire_4_8_1.tar.gz
-tar xvzf openfire_4_8_1.tar.gz -C /usr/share
-rm openfire_4_8_1.tar.gz
+wget -O openfire_4_8_3.tar.gz https://github.com/igniterealtime/Openfire/releases/download/v4.8.3/openfire_4_8_3.tar.gz
+tar xvzf openfire_4_8_3.tar.gz -C /usr/share
+rm openfire_4_8_3.tar.gz
 
 
 #installing Openfire plugins 
