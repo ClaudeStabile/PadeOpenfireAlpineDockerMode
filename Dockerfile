@@ -1,7 +1,8 @@
 #name of container: docker-pade
 #version of container: 6.0.3
 FROM alpine:edge
-MAINTAINER Claude Stabile "claude@free-solutions.ch"
+#MAINTAINER Claude Stabile "claude@free-solutions.ch"
+LABEL org.opencontainers.image.authors="claude@free-solutions.ch"
 
 #Installation of needed packages...
 #Java, mysql client, vim & TZ
