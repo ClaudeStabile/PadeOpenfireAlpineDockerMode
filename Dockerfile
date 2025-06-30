@@ -1,5 +1,5 @@
 #name of container: docker-pade
-#version of container: 6.2.6
+#version of container: 6.3.0
 FROM ubuntu:latest 
 #MAINTAINER Claude Stabile "claude@free-solutions.ch"
 LABEL org.freesolutions.image.authors="claude@free-solutions.ch"
