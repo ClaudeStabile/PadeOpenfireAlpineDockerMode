@@ -23,7 +23,7 @@ wget -O registration.jar https://www.igniterealtime.org/projects/openfire/plugin
 wget -O externalservicediscovery.jar https://www.igniterealtime.org/projects/openfire/plugins/1.0.4/externalservicediscovery.jar 
 wget -O pushnotification.jar https://www.igniterealtime.org/projects/openfire/plugins/1.1.1/pushnotification.jar 
 wget -O inverse.jar https://green-spider.free-solutions.org/PLUGINS/inverse-FS.jar 
-wget -O ofmeet.jar https://www.igniterealtime.org/projects/openfire/plugins/0.9.7/ofmeet.jar 
+wget -O ofmeet.jar https://www.igniterealtime.org/projects/openfire/plugins/0.9.8/ofmeet.jar 
 wget -O hazelcast.jar https://www.igniterealtime.org/projects/openfire/plugins/5.5.0.1/hazelcast.jar 
  
  #Cleaning...
